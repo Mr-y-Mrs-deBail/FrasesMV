@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>frases para ti 🐧</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+  <div class="container text-center">
+
+
+    <div class="bubbles-animation1"><span class="dot"></span></div>
+        <div class="bubbles-animation2"></div>
+        <div class="bubbles-animation3"></div>
+        <div class="bubbles-animation4"></div>
+        <div class="bubbles-animation5"></div>
+        <div class="bubbles-animation6"></div>
+        <div class="bubbles-animation7"></div>
+        <div class="bubbles-animation8"></div>
+        <div class="bubbles-animation9"></div>
+        <div class="bubbles-animation10"></div>
+        <div class="bubbles-animation11"></div>
+        <div class="bubbles-animation12"></div>
+        <div class="bubbles-animation13"></div>
+        <div class="bubbles-animation14"></div>
+        <div class="bubbles-animation15"></div>
+        <div class="bubbles-animation16"></div>
+        <div class="bubbles-animation17"></div>
+        <div class="bubbles-animation18"></div>
+        <div class="bubbles-animation19"></div>
+        <div class="bubbles-animation20"></div>
+        <div class="bubbles-animation21"></div>
+        <div class="bubbles-animation22"></div>
+        <div class="bubbles-animation23"></div>
+        <div class="bubbles-animation24"></div>
+        <div class="bubbles-animation25"></div>
+
+
+    <div class="row text-center" style="padding: 50px;">
+      <div class="col-12">
+        <h1 class="titulo">¡Eres mi sol☀️, mi luna🌙, todo mi mundo🌎, tú eres mi galaxia entera🌌!</h1>
+      </div>
+    </div>
+
+       
+      <div class="row">
+      <div class="col-12" style="top: -20px;">
+        <p class=" text-center parrafo">Espero estas lindas frases te hagan sonreír mi amor, te amooooOOOO con toda mi alma y corazón, siempre juntos sisi ♡.</p>
+
+      </div>
+    </div>
+
+      <div class="row">
+
+        <div class="col-md-12 col-sm-4">
+          <img class="heart" src="img/pingüino.gif" alt="">
+        </div>
+
+        <div class="col-md-12 col-sm-7" style="padding: 25px;">
+          <main class="frases">
+            <div class="frases-container">
+              <div class="container-interno">
+                <p id="frase"></p>
+                <h3 id="author"></h3>
+
+                <div class="col-md-12">
+                  <div class="btn-love">
+                    <button class="btn btn-info1" id="generate">Click me <br> para otra linda frase mi amor</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </main>
+        </div>
+      </div>
+
+      <div class="row" style="padding: 0px;">
+        
+        <div class="col-md-12">
+
+      <button type="button" class="btn btn-volver" data-bs-toggle="modal" data-bs-target="#myModal">Volver</button>
+
+    <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+           <div class="modal-header">
+                <h4 class="modal-title fs-5" id="myModalLabel" style="font-family:'Kaushan Script', cursive;">¿Ya te quieres ir mi amor? ⊙﹏⊙</h4>
+            </div>
+
+            <div class="modal-body">
+              Esta bien mi amor, gracias por leer las lindas frases mi amor, espero que te hayan encantado. <br> Vuelve a leerlas cuando tú quieras Uyyyy, cuando te sientas triste o feliz. <br> Te AmooooOOOOOOO( ∩˘ᵕ˘∩♡)˚๐*˟ ♡.
+              <img class="bunny" src="img/bunny-bunnies.gif" alt="">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-success" data-bs-dismiss="modal" onclick="redireccion()" aria-label="Close">Continuar</button>
+              <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+      </div>
+    </div>
+
+         </div>
+       </div>
+
+      
+ </div>
+  </div>
+
+      
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+   integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+  <script>
+
+    const frases = {
+    "- Te AmoOOO cada milisegundo más y más ❤️": '"Me he enamorado cientos de veces, y todas son de ti mi amor."',
+    "- Tu mirada es como un rayo de sol en mi vida, iluminando todo a mi alrededor ❤️": '"Si la luna es bonita, más bonito es el sol, pero una mirada como la tuya no tiene comparación mi amor."',
+    "- Tu mirada me hipnotiza hasta el punto de abrir las puertas de mi alma y mi corazón solo para ti": '"Me perdí en esos hermosos ojos, que aunque no eran azules como el cielo ni verdes como los bosques, me sumergí en el mar de tu mirada. Una mirada azabache, suave como el aserrín, pero cautivadora como el más fuerte de los robles."',
+    "- Nunca lo olvides": '"Mi lugar favorito en el mundo es a tu lado."',
+    "- Y para siempre junto a ti": '"En las dificultades y en los logros, pero siempre de tu mano."', 
+    "- Te Adoro mi amor": '"Eres la personita que amo y la personita que elijo cada día para compartir mi vida."',
+    "- Espero que mi sonrisa sea igual de importante para ti.": '"Tu sonrisa es lo mejor que me puede pasar en todo el día."',
+    "- Porque tu amor por mí, hace lo mismo en mí": '"Deseo que todo mi amor por ti, te alegre y te de fuerzas cada milisegundo del día."',
+    "- Gracias por todo.": '"Puedes estar lejitos de mis ojos, pero no de mis oraciones mi amor."',
+    "- Siempre Juntos.": '"Eres exactamente eso que no quiero perder mi amor."',
+    "- Te Amo, más que ayer mi todo": '"Eres INCREÍBLE (sólo quería recordártelo mi amor)."',
+    "- Porque eres lo mejor de mi vida": '"Si volviera a nacer, nuevamente te escogería mi amor."',
+    "- Y por siempre Tú": '"El amor cabe en dos letras (TÚ)."',
+    "- y si ese color no esta en esos miles, entonces crearemos ese color tú y yo.": '"Si tus días son grises, yo te regalo miles de colores mi amor."',
+    "- TE AMO": '"Escribirte, es la manera más dulce que encontré para poder acariciarte y amarte con el alma."',
+    "- Porque tú eres mi sonrisa cada milisegundo del día": '"Quiero ser tu primera sonrisa de la mañana y todas tus sonrisas del resto que quede del día."',
+    "- ¡Y tú a mí!": '"Te Amo hoy, mañana, por siempre y por toda la eternidad."',
+    "- Y tú no solo le diste sentido a esa palabra, le diste sentido a toda mi vida": '"El amor es solo una palabra hasta que alguien viene y le da sentido."',
+    "- Yo siempre estaré junto a ti apoyandote.": '"Avanza con confianza en la dirección de tus sueños."',
+    "- Mi señor cacahuete": '"Recuerda: tú puedes y vas a poder con todo lo que te propongas."',
+    "- Mi señor de M.": '"Siempre voy a estar ahí, para cuidarte y amarte."',
+    "- Siempre tenlo en mente mi amor": '"Vales más de lo que te puedes imaginar."',
+    "- Y tú eres mi luz mi amor": '"No dejes de brillar solo porque a otros les moleste tu luz."',
+    "- Recuerda que eres un tesoro único lleno de lindas sorpresas.": '"Me encanta pasar tiempo contigo mi amor, ya que cada segundo que pasa aprendo algo nuevo de ti, incluso en la distancia."',
+    "- Te Adoro mi Todo": '"En toda la galaxia no hay nada más brillante que tú mi amor."',
+    "- Te AmOoO": '"Mi único deseo eres tú. Se lo pido a cada estrella, a cada átomo del universo y hoy a ti."',
+    "- Te Extraño": '"Que me perdone el tiempo, por querer detenerlo cuando te miro mi amor."',
+    "- No importa que día lo veas, siempre me gustarás cada milisegundo más y más": '"Mira que me gustas todos los días, pero hoy has exagerado mi amor."',
+    "- Así que te ... bombón": '"Mi amor, quería llevarte al cine, pero no permiten entrar dulces"',
+
+    };
+
+    document.querySelector("#generate").addEventListener("click", () => {
+    generate();
+    });
+
+    function generate(){
+
+    const authors = Object.keys(frases);
+
+    const author = authors[Math.floor(Math.random() * authors.length)];
+
+    const frase = frases[author]
+
+    document.querySelector("#frase").textContent = frase;
+    document.querySelector("#author").textContent = author;
+    } 
+
+    window.onload = function(){
+    generate()
+
+    }
+  </script>
+
+
+  <script>
+
+    function redireccion(){
+     location.href = "https://mr-y-mrs-debail.github.io/Conteo-regresivo/"
+    }
+
+  </script>
+
+    
+</body>
+
+</html>
