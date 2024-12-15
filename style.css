@@ -4,11 +4,9 @@ body {
   background: rgb(0, 0, 0);
 }
 
-.bubbles-animation1{
-  top: 30%;
-  left: 10%;
-  height: 8px;
-  width: 8px;
+.fireflies {
+  position: absolute;
+  border-radius: 50px;
   background: rgb(97, 255, 5);
   box-shadow: 
     0px 0px 10px rgb(97, 255, 5),
@@ -21,564 +19,211 @@ body {
     inset -30px -30px rgba(255,255,255,.2),
     inset -40px -40px rgba(255,255,255,.2),
     inset -50px -50px rgba(255,255,255,.2);
-  border-radius: 50px;
-  position: absolute;
-  animation: animate 7s linear infinite;
   z-index: 100;
 }
 
-.bubbles-animation2{
+.firefly1 {
+  top: 30%;
+  left: 10%;
+  height: 8px;
+  width: 8px;
+  animation: animate 7s linear infinite;
+}
+
+.firefly2 {
   top: 60%;
   left: 90%;
   animation: animate 10s linear infinite;
   height: 5px;
   width: 5px;
-  background: rgb(97, 255, 5);
-  box-shadow: 
-    0px 0px 10px rgb(97, 255, 5),
-    0px 0px 20px rgb(97, 255, 5),
-    0px 0px 30px rgb(97, 255, 5),
-    0px 0px 40px rgb(97, 255, 5),
-    0px 0px 50px rgb(97, 255, 5),
-    inset -10px -10px rgba(255,255,255,.2),
-    inset -20px -20px rgba(255,255,255,.2),
-    inset -30px -30px rgba(255,255,255,.2),
-    inset -40px -40px rgba(255,255,255,.2),
-    inset -50px -50px rgba(255,255,255,.2);  
-  border-radius: 50px;
-  position: absolute;
-  z-index: 100;
 }
 
-.bubbles-animation3{
+.firefly3 {
   top: 40%;
   left: 40%;
   animation: animate 15s linear infinite;
   height: 10px;
   width: 10px;
-  background: rgb(97, 255, 5);
-  box-shadow: 
-    0px 0px 10px rgb(97, 255, 5),
-    0px 0px 20px rgb(97, 255, 5),
-    0px 0px 30px rgb(97, 255, 5),
-    0px 0px 40px rgb(97, 255, 5),
-    0px 0px 50px rgb(97, 255, 5),
-    inset -10px -10px rgba(255,255,255,.2),
-    inset -20px -20px rgba(255,255,255,.2),
-    inset -30px -30px rgba(255,255,255,.2),
-    inset -40px -40px rgba(255,255,255,.2),
-    inset -50px -50px rgba(255,255,255,.2);  
-  border-radius: 50px;
-  position: absolute;
-  z-index: 100;
 }
 
-.bubbles-animation4{
+.firefly4 {
   top: 66%;
   left: 30%;
   animation: animate 7s linear infinite;
   height: 9px;
   width: 9px;
-  background: rgb(97, 255, 5);
-  box-shadow: 
-    0px 0px 10px rgb(97, 255, 5),
-    0px 0px 20px rgb(97, 255, 5),
-    0px 0px 30px rgb(97, 255, 5),
-    0px 0px 40px rgb(97, 255, 5),
-    0px 0px 50px rgb(97, 255, 5),
-    inset -10px -10px rgba(255,255,255,.2),
-    inset -20px -20px rgba(255,255,255,.2),
-    inset -30px -30px rgba(255,255,255,.2),
-    inset -40px -40px rgba(255,255,255,.2),
-    inset -50px -50px rgba(255,255,255,.2); 
-  border-radius: 50px;
-  position: absolute;
-  z-index: 100;
 }
 
-.bubbles-animation5{
+.firefly5 {
   top: 89%;
   left: 5%;
   animation: animate 9s linear infinite;
   height: 5px;
   width: 5px;
-  background: rgb(97, 255, 5);
-  box-shadow: 
-    0px 0px 10px rgb(97, 255, 5),
-    0px 0px 20px rgb(97, 255, 5),
-    0px 0px 30px rgb(97, 255, 5),
-    0px 0px 40px rgb(97, 255, 5),
-    0px 0px 50px rgb(97, 255, 5),
-    inset -10px -10px rgba(255,255,255,.2),
-    inset -20px -20px rgba(255,255,255,.2),
-    inset -30px -30px rgba(255,255,255,.2),
-    inset -40px -40px rgba(255,255,255,.2),
-    inset -50px -50px rgba(255,255,255,.2);  
-  border-radius: 50px;
-  position: absolute;
-  z-index: 100;
 }
 
-.bubbles-animation6{
+.firefly6 {
   top: 30%;
   left: 95%;
   animation: animate 10s linear infinite;
   height: 9px;
   width: 9px;
-  background: rgb(97, 255, 5);
-  box-shadow: 
-  0px 0px 10px rgb(97, 255, 5),
-  0px 0px 20px rgb(97, 255, 5),
-  0px 0px 30px rgb(97, 255, 5),
-  0px 0px 40px rgb(97, 255, 5),
-  0px 0px 50px rgb(97, 255, 5),
-  inset -10px -10px rgba(255,255,255,.2),
-  inset -20px -20px rgba(255,255,255,.2),
-  inset -30px -30px rgba(255,255,255,.2),
-  inset -40px -40px rgba(255,255,255,.2),
-  inset -50px -50px rgba(255,255,255,.2); 
-  border-radius: 50px;
-  position: absolute;
-  z-index: 100;
 }
 
-.bubbles-animation7{
+.firefly7 {
   top: 80%;
   left: 18%;
   animation: animate 4s linear infinite;
   z-index: 100;
   height: 7px;
   width: 7px;
-  background: rgb(97, 255, 5);
-  box-shadow: 
-    0px 0px 10px rgb(97, 255, 5),
-    0px 0px 20px rgb(97, 255, 5),
-    0px 0px 30px rgb(97, 255, 5),
-    0px 0px 40px rgb(97, 255, 5),
-    0px 0px 50px rgb(97, 255, 5),
-    inset -10px -10px rgba(255,255,255,.2),
-    inset -20px -20px rgba(255,255,255,.2),
-    inset -30px -30px rgba(255,255,255,.2),
-    inset -40px -40px rgba(255,255,255,.2),
-    inset -50px -50px rgba(255,255,255,.2);  
-  border-radius: 50px;
-  position: absolute;
-  z-index: 100;
 }
 
-.bubbles-animation8{
+.firefly8 {
   top: 80%;
   left: 60%;
   animation: animate 10s linear infinite;
   z-index: 100;
   height: 5px;
   width: 5px;
-  background: rgb(97, 255, 5);
-  box-shadow: 
-    0px 0px 10px rgb(97, 255, 5),
-    0px 0px 20px rgb(97, 255, 5),
-    0px 0px 30px rgb(97, 255, 5),
-    0px 0px 40px rgb(97, 255, 5),
-    0px 0px 50px rgb(97, 255, 5),
-    inset -10px -10px rgba(255,255,255,.2),
-    inset -20px -20px rgba(255,255,255,.2),
-    inset -30px -30px rgba(255,255,255,.2),
-    inset -40px -40px rgba(255,255,255,.2),
-    inset -50px -50px rgba(255,255,255,.2); 
-  border-radius: 50px;
-  position: absolute;
-  z-index: 100;
 }
 
-.bubbles-animation9{
+.firefly9 {
   top: 50%;
   left: 60%;
   animation: animate 13s linear infinite;
   z-index: 100;
   height: 7px;
   width: 7px;
-  background: rgb(97, 255, 5);
-  box-shadow: 
-    0px 0px 10px rgb(97, 255, 5),
-    0px 0px 20px rgb(97, 255, 5),
-    0px 0px 30px rgb(97, 255, 5),
-    0px 0px 40px rgb(97, 255, 5),
-    0px 0px 50px rgb(97, 255, 5),
-    inset -10px -10px rgba(255,255,255,.2),
-    inset -20px -20px rgba(255,255,255,.2),
-    inset -30px -30px rgba(255,255,255,.2),
-    inset -40px -40px rgba(255,255,255,.2),
-    inset -50px -50px rgba(255,255,255,.2);
-  border-radius: 50px;
-  position: absolute;
-  z-index: 100;
 }
-.bubbles-animation10{
+
+.firefly10 {
   top: 45%;
   left: 20%;
   animation: animate 6s linear infinite;
   height: 5px;
   width: 5px;
-  background: rgb(97, 255, 5);
-  box-shadow: 
-  0px 0px 10px rgb(97, 255, 5),
-  0px 0px 20px rgb(97, 255, 5),
-  0px 0px 30px rgb(97, 255, 5),
-  0px 0px 40px rgb(97, 255, 5),
-  0px 0px 50px rgb(97, 255, 5),
-  inset -10px -10px rgba(255,255,255,.2),
-  inset -20px -20px rgba(255,255,255,.2),
-  inset -30px -30px rgba(255,255,255,.2),
-  inset -40px -40px rgba(255,255,255,.2),
-  inset -50px -50px rgba(255,255,255,.2); 
-  border-radius: 50px;
-  position: absolute;
-  z-index: 100;
 }
-.bubbles-animation11{
+
+.firefly11 {
   top: 10%;
   left: 85%;
   animation: animate 13s linear infinite;
   height: 5px;
   width: 5px;
-  background: rgb(97, 255, 5);
-  box-shadow: 
-  0px 0px 10px rgb(97, 255, 5),
-  0px 0px 20px rgb(97, 255, 5),
-  0px 0px 30px rgb(97, 255, 5),
-  0px 0px 40px rgb(97, 255, 5),
-  0px 0px 50px rgb(97, 255, 5),
-  inset -10px -10px rgba(255,255,255,.2),
-  inset -20px -20px rgba(255,255,255,.2),
-  inset -30px -30px rgba(255,255,255,.2),
-  inset -40px -40px rgba(255,255,255,.2),
-  inset -50px -50px rgba(255,255,255,.2); 
-  border-radius: 50px;
-  position: absolute;
-  z-index: 100;
 }
 
-.bubbles-animation12{
+.firefly12 {
   top: 20%;
   left: 80%;
   animation: animate 10s linear infinite;
-  z-index: 100;
   height: 8px;
   width: 8px;
-  background: rgb(97, 255, 5);
-  box-shadow: 
-  0px 0px 10px rgb(97, 255, 5),
-  0px 0px 20px rgb(97, 255, 5),
-  0px 0px 30px rgb(97, 255, 5),
-  0px 0px 40px rgb(97, 255, 5),
-  0px 0px 50px rgb(97, 255, 5),
-  inset -10px -10px rgba(255,255,255,.2),
-  inset -20px -20px rgba(255,255,255,.2),
-  inset -30px -30px rgba(255,255,255,.2),
-  inset -40px -40px rgba(255,255,255,.2),
-  inset -50px -50px rgba(255,255,255,.2);
-  border-radius: 50px;
-  position: absolute;
 }
 
-.bubbles-animation13{
+.firefly13 {
   top: 20%;
   left: 15%;
   animation: animate 14s linear infinite;
-  z-index: 100;
   height: 10px;
   width: 10px;
-  background: rgb(97, 255, 5);
-  box-shadow: 
-    0px 0px 10px rgb(97, 255, 5),
-    0px 0px 20px rgb(97, 255, 5),
-    0px 0px 30px rgb(97, 255, 5),
-    0px 0px 40px rgb(97, 255, 5),
-    0px 0px 50px rgb(97, 255, 5),
-    inset -10px -10px rgba(255,255,255,.2),
-    inset -20px -20px rgba(255,255,255,.2),
-    inset -30px -30px rgba(255,255,255,.2),
-    inset -40px -40px rgba(255,255,255,.2),
-    inset -50px -50px rgba(255,255,255,.2); 
-  border-radius: 50px;
-  position: absolute;
 }
 
-.bubbles-animation14{
+.firefly14 {
   top: 65%;
   left: 5%;
   animation: animate 5s linear infinite;
-  z-index: 100;
   height: 8px;
   width: 8px;
-  background: rgb(97, 255, 5);
-  box-shadow: 
-    0px 0px 10px rgb(97, 255, 5),
-    0px 0px 20px rgb(97, 255, 5),
-    0px 0px 30px rgb(97, 255, 5),
-    0px 0px 40px rgb(97, 255, 5),
-    0px 0px 50px rgb(97, 255, 5),
-    inset -10px -10px rgba(255,255,255,.2),
-    inset -20px -20px rgba(255,255,255,.2),
-    inset -30px -30px rgba(255,255,255,.2),
-    inset -40px -40px rgba(255,255,255,.2),
-    inset -50px -50px rgba(255,255,255,.2); 
-  border-radius: 50px;
-  position: absolute;
 }
 
-.bubbles-animation15{
+.firefly15 {
   top: 70%;
   left: 70%;
   animation: animate 8s linear infinite;
-  z-index: 100;
   height: 5px;
   width: 5px;
-  background: rgb(97, 255, 5);
-  box-shadow: 
-    0px 0px 10px rgb(97, 255, 5),
-    0px 0px 20px rgb(97, 255, 5),
-    0px 0px 30px rgb(97, 255, 5),
-    0px 0px 40px rgb(97, 255, 5),
-    0px 0px 50px rgb(97, 255, 5),
-    inset -10px -10px rgba(255,255,255,.2),
-    inset -20px -20px rgba(255,255,255,.2),
-    inset -30px -30px rgba(255,255,255,.2),
-    inset -40px -40px rgba(255,255,255,.2),
-    inset -50px -50px rgba(255,255,255,.2); 
-  border-radius: 50px;
-  position: absolute;
 }
 
-.bubbles-animation16{
+.firefly16 {
   top: 85%;
   left: 80%;
   animation: animate 5s linear infinite;
-  z-index: 100;
   height: 5px;
   width: 5px;
-  background: rgb(97, 255, 5);
-  box-shadow: 
-  0px 0px 10px rgb(97, 255, 5),
-  0px 0px 20px rgb(97, 255, 5),
-  0px 0px 30px rgb(97, 255, 5),
-  0px 0px 40px rgb(97, 255, 5),
-  0px 0px 50px rgb(97, 255, 5),
-  inset -10px -10px rgba(255,255,255,.2),
-  inset -20px -20px rgba(255,255,255,.2),
-  inset -30px -30px rgba(255,255,255,.2),
-  inset -40px -40px rgba(255,255,255,.2),
-  inset -50px -50px rgba(255,255,255,.2); 
-  border-radius: 50px;
-  position: absolute;
 }
 
-.bubbles-animation17{
+.firefly17 {
   top: 45%;
   left: 28%;
   animation: animate 10s linear infinite;
-  z-index: 100;
   height: 8px;
   width: 8px;
-  background: rgb(97, 255, 5);
-  box-shadow: 
-  0px 0px 10px rgb(97, 255, 5),
-  0px 0px 20px rgb(97, 255, 5),
-  0px 0px 30px rgb(97, 255, 5),
-  0px 0px 40px rgb(97, 255, 5),
-  0px 0px 50px rgb(97, 255, 5),
-  inset -10px -10px rgba(255,255,255,.2),
-  inset -20px -20px rgba(255,255,255,.2),
-  inset -30px -30px rgba(255,255,255,.2),
-  inset -40px -40px rgba(255,255,255,.2),
-  inset -50px -50px rgba(255,255,255,.2); 
-  border-radius: 50px;
-  position: absolute;
 }
 
-.bubbles-animation18{
+.firefly18 {
   top: 90%;
   left: 25%;
   animation: animate 5s linear infinite;
-  z-index: 100;
   height: 5px;
   width: 5px;
-  background: rgb(97, 255, 5);
-  box-shadow: 
-  0px 0px 10px rgb(97, 255, 5),
-  0px 0px 20px rgb(97, 255, 5),
-  0px 0px 30px rgb(97, 255, 5),
-  0px 0px 40px rgb(97, 255, 5),
-  0px 0px 50px rgb(97, 255, 5),
-  inset -10px -10px rgba(255,255,255,.2),
-  inset -20px -20px rgba(255,255,255,.2),
-  inset -30px -30px rgba(255,255,255,.2),
-  inset -40px -40px rgba(255,255,255,.2),
-  inset -50px -50px rgba(255,255,255,.2); 
-  border-radius: 50px;
-  position: absolute;
 }
 
-.bubbles-animation19{
+.firefly19 {
   top: 90%;
   left: 95%;
   animation: animate 10s linear infinite;
-  z-index: 100;
   height: 5px;
   width: 5px;
-  background: rgb(97, 255, 5);
-  box-shadow: 
-    0px 0px 10px rgb(97, 255, 5),
-    0px 0px 20px rgb(97, 255, 5),
-    0px 0px 30px rgb(97, 255, 5),
-    0px 0px 40px rgb(97, 255, 5),
-    0px 0px 50px rgb(97, 255, 5),
-    inset -10px -10px rgba(255,255,255,.2),
-    inset -20px -20px rgba(255,255,255,.2),
-    inset -30px -30px rgba(255,255,255,.2),
-    inset -40px -40px rgba(255,255,255,.2),
-    inset -50px -50px rgba(255,255,255,.2);  
-  border-radius: 50px;
-  position: absolute;
 }
 
-.bubbles-animation20{
+.firefly20 {
   top: 59%;
   left: 78%;
   animation: animate 7s linear infinite;
-  z-index: 100;
   height: 3px;
   width: 3px;
-  background: rgb(97, 255, 5);
-  box-shadow: 
-  0px 0px 10px rgb(97, 255, 5),
-  0px 0px 20px rgb(97, 255, 5),
-  0px 0px 30px rgb(97, 255, 5),
-  0px 0px 40px rgb(97, 255, 5),
-  0px 0px 50px rgb(97, 255, 5),
-  inset -10px -10px rgba(255,255,255,.2),
-  inset -20px -20px rgba(255,255,255,.2),
-  inset -30px -30px rgba(255,255,255,.2),
-  inset -40px -40px rgba(255,255,255,.2),
-  inset -50px -50px rgba(255,255,255,.2);  
-  border-radius: 50px;
-  position: absolute;
 }
 
-.bubbles-animation21{
+.firefly21 {
   top: 95%;
   left: 56%;
   animation: animate 6s linear infinite;
-  z-index: 100;
   height: 3px;
   width: 3px;
-  background: rgb(97, 255, 5);
-  box-shadow: 
-    0px 0px 10px rgb(97, 255, 5),
-    0px 0px 20px rgb(97, 255, 5),
-    0px 0px 30px rgb(97, 255, 5),
-    0px 0px 40px rgb(97, 255, 5),
-    0px 0px 50px rgb(97, 255, 5),
-    inset -10px -10px rgba(255,255,255,.2),
-    inset -20px -20px rgba(255,255,255,.2),
-    inset -30px -30px rgba(255,255,255,.2),
-    inset -40px -40px rgba(255,255,255,.2),
-    inset -50px -50px rgba(255,255,255,.2); 
-  border-radius: 50px;
-  position: absolute;
 }
 
-.bubbles-animation22{
+.firefly22 {
   top: 66%;
   left: 65%;
   animation: animate 4s linear infinite;
-  z-index: 100;
   height: 3px;
   width: 3px;
-  background: rgb(97, 255, 5);
-  box-shadow: 
-  0px 0px 10px rgb(97, 255, 5),
-  0px 0px 20px rgb(97, 255, 5),
-  0px 0px 30px rgb(97, 255, 5),
-  0px 0px 40px rgb(97, 255, 5),
-  0px 0px 50px rgb(97, 255, 5),
-  inset -10px -10px rgba(255,255,255,.2),
-  inset -20px -20px rgba(255,255,255,.2),
-  inset -30px -30px rgba(255,255,255,.2),
-  inset -40px -40px rgba(255,255,255,.2),
-  inset -50px -50px rgba(255,255,255,.2);
-  border-radius: 50px;
-  position: absolute;
 }
 
 
-.bubbles-animation23{
+.firefly23 {
   top: 35%;
   left: 4%;
   animation: animate 10s linear infinite;
-  z-index: 100;
   height: 6px;
   width: 6px;
-  background: rgb(97, 255, 5);
-  box-shadow: 
-    0px 0px 10px rgb(97, 255, 5),
-    0px 0px 20px rgb(97, 255, 5),
-    0px 0px 30px rgb(97, 255, 5),
-    0px 0px 40px rgb(97, 255, 5),
-    0px 0px 50px rgb(97, 255, 5),
-    inset -10px -10px rgba(255,255,255,.2),
-    inset -20px -20px rgba(255,255,255,.2),
-    inset -30px -30px rgba(255,255,255,.2),
-    inset -40px -40px rgba(255,255,255,.2),
-    inset -50px -50px rgba(255,255,255,.2);
-  border-radius: 50px;
-  position: absolute;
 }
 
-.bubbles-animation24{
+.firefly24 {
   top: 60%;
   left: 13%;
   animation: animate 12s linear infinite;
-  z-index: 100;
   height: 4px;
   width: 4px;
-  background: rgb(97, 255, 5);
-  box-shadow: 
-  0px 0px 10px rgb(97, 255, 5),
-  0px 0px 20px rgb(97, 255, 5),
-  0px 0px 30px rgb(97, 255, 5),
-  0px 0px 40px rgb(97, 255, 5),
-  0px 0px 50px rgb(97, 255, 5),
-  inset -10px -10px rgba(255,255,255,.2),
-  inset -20px -20px rgba(255,255,255,.2),
-  inset -30px -30px rgba(255,255,255,.2),
-  inset -40px -40px rgba(255,255,255,.2),
-  inset -50px -50px rgba(255,255,255,.2);
-  border-radius: 50px;
-  position: absolute;
 }
 
-.bubbles-animation25{
+.firefly25 {
   top: 85%;
   left: 35%;
   animation: animate 10s linear infinite;
-  z-index: 100;
   height: 6px;
   width: 6px;
-  background: rgb(97, 255, 5);
- box-shadow: 
-    0px 0px 10px rgb(97, 255, 5),
-    0px 0px 20px rgb(97, 255, 5),
-    0px 0px 30px rgb(97, 255, 5),
-    0px 0px 40px rgb(97, 255, 5),
-    0px 0px 50px rgb(97, 255, 5),
-    inset -10px -10px rgba(255,255,255,.2),
-    inset -20px -20px rgba(255,255,255,.2),
-    inset -30px -30px rgba(255,255,255,.2),
-    inset -40px -40px rgba(255,255,255,.2),
-    inset -50px -50px rgba(255,255,255,.2);  
-  border-radius: 50px;
-  position: absolute;
 }
 
 @keyframes animate {
@@ -592,7 +237,7 @@ body {
   }
 }
 
-.titulo{
+.titulo {
   font-size: 30px;
   color: white;
   font-family: 'Kaushan Script', cursive;
@@ -600,13 +245,13 @@ body {
   animation-duration: 6s;
 }
 
-.parrafo{
+.parrafo {
   font-size: 15px;
   color: white;
   font-family: 'Poiret One', cursive;
 }
 
-.heart{
+.heart {
   width: 200px;
 }
   
@@ -634,7 +279,7 @@ body {
   margin-top: 10px;
 }
 
-.btn-info1{
+.btn-info1 {
   background: rgba(255, 192, 203, 0.212);
   border-color: white;
   color: white;
@@ -643,14 +288,14 @@ body {
   font-family: 'Poiret One', cursive;
 }
 
-.btn-info1:hover{
+.btn-info1:hover {
   background: rgba(128, 0, 128, 0.089);
   border-color: purple;
   color: white;
   box-shadow: none;
 }
 
-.btn-volver{
+.btn-volver {
   background: rgba(255, 0, 0, 0.192);
   font-family: 'Poiret One', cursive;
   border-color: white;
@@ -659,14 +304,14 @@ body {
   box-shadow: none;
 }
 
-.btn-volver:hover{
+.btn-volver:hover {
   background: red;
   border-color: white;
   color: white;
   box-shadow: none;
 }
 
-.bunny{
+.bunny {
   width: 150px;
 }
   
